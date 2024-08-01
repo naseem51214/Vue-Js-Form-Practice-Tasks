@@ -1,26 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+   <!-- <SimpleForm/> -->
+    <CompleteForm/>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CompleteForm from './components/CompleteForm.vue';
+
+// import SimpleForm from './components/SimpleForm.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // SimpleForm
+    CompleteForm
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
