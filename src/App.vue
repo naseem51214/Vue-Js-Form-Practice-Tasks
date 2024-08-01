@@ -1,12 +1,17 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
    <!-- <SimpleForm/> -->
-    <CompleteForm/>
+    <!-- <CompleteForm/> -->
+   <ValidatingForm />
 
 </template>
 
 <script>
-import CompleteForm from './components/CompleteForm.vue';
+import ValidatingForm from './components/ValidatingForm.vue';
+
+
+
+// import CompleteForm from './components/CompleteForm.vue';
 
 // import SimpleForm from './components/SimpleForm.vue';
 
@@ -15,7 +20,8 @@ export default {
   name: 'App',
   components: {
     // SimpleForm
-    CompleteForm
+    // CompleteForm
+    ValidatingForm
   }
 }
 </script>
