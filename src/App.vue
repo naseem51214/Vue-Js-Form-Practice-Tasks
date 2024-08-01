@@ -2,12 +2,19 @@
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
    <!-- <SimpleForm/> -->
     <!-- <CompleteForm/> -->
-   <ValidatingForm />
+   <!-- <ValidatingForm /> -->
+    <FormWithModifiers/>
+    
 
 </template>
 
 <script>
-import ValidatingForm from './components/ValidatingForm.vue';
+// import FormWithModifiers from './components/FormWithModifiers.vue';
+import FormWithModifiers from './components/FormWithModifiers.vue';
+
+
+
+// import ValidatingForm from './components/ValidatingForm.vue';
 
 
 
@@ -21,7 +28,8 @@ export default {
   components: {
     // SimpleForm
     // CompleteForm
-    ValidatingForm
+    // ValidatingForm
+   FormWithModifiers
   }
 }
 </script>
